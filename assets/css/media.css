@@ -1,0 +1,146 @@
+@media (max-width: 991px) and (min-width: 769px) {
+  .navbar .navbar-nav {
+    width: 35%;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    background-color: #181a27af;
+    border-radius: 3px;
+  }
+
+  .navbar .navbar-nav li {
+    margin: auto;
+  }
+
+  .navbar .hide {
+    visibility: hidden;
+  }
+
+  .navbar .nav-image img {
+    display: block;
+  }
+
+  header .swiper .swiper-wrapper .hrader1,
+  header .swiper .swiper-wrapper .hrader2,
+  header .swiper .swiper-wrapper .hrader3,
+  header .swiper .swiper-wrapper .hrader4,
+  header .swiper .swiper-wrapper .hrader5 {
+    padding: 200px 50px;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .info h1 {
+    width: 80% !important;
+    margin-left: 0px !important;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .info .image-button {
+    margin-left: 0px !important;
+  }
+  header .swiper .swiper-wrapper .swiper-slide .header-box {
+    padding: 30px 20px 0px;
+    width: 90%;
+  }
+  header .swiper .next {
+    position: absolute;
+    bottom: 30%;
+    left: 80%;
+  }
+
+  header .swiper .prev {
+    position: absolute;
+    bottom: 20%;
+    left: 80%;
+  }
+
+  .product .button,
+  .select .button,
+  .options .button {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    width: 35%;
+    position: absolute;
+    top: 60%;
+    right: 0px;
+    background-color: #181a27af;
+    border-radius: 3px;
+  }
+
+  .navbar .navbar-nav li {
+    margin: auto;
+  }
+
+  .navbar .hide {
+    visibility: hidden;
+  }
+
+  .navbar .nav-image img {
+    display: block;
+  }
+
+  header .swiper .swiper-wrapper .hrader1,
+  header .swiper .swiper-wrapper .hrader2,
+  header .swiper .swiper-wrapper .hrader3,
+  header .swiper .swiper-wrapper .hrader4,
+  header .swiper .swiper-wrapper .hrader5 {
+    padding: 200px 50px;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .info h1 {
+    font-size: 25px;
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .info .image-button {
+    margin-left: 0px !important;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .header-box {
+    padding: 30px 20px 0px;
+    width: 90%;
+    height: 200px;
+  }
+
+  header .swiper .swiper-wrapper .swiper-slide .header-box .boxes {
+    width: 100% !important;
+    transform: translateY(-20px);
+  }
+
+  header .swiper .next {
+    position: absolute;
+    bottom: 50%;
+    left: 80%;
+  }
+
+  header .swiper .prev {
+    position: absolute;
+    bottom: 40%;
+    left: 80%;
+  }
+
+  .about .info h3 {
+    font-size: 18px;
+  }
+
+  .subscribe .banner,
+  .sub-scribe .banner {
+    padding: 50px 20px;
+  }
+
+  .subscribe h1,
+  .sub-scribe h1 {
+    font-size: 20px !important;
+  }
+
+  .product .button,
+  .select .button,
+  .options .button {
+    display: none;
+  }
+
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Bold.woff2');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Regular.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Medium.woff2');
+  font-weight: 500;
+}
+
+* {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary-color: #E1ECFF;
+  --secondary-color: #00B1FF;
+  --Third-color: #1A6EFF;
+  --Fourth-color: #FBB03B;
+  --dark-color: #000;
+  --semi-dark: #333;
+  --light-color: #fff;
+  --gray-color: #808080;
+  --lightgray-color: #b5b7b9;
+  --primary-filter: invert(99%) sepia(2%) saturate(248%) hue-rotate(166deg) brightness(118%) contrast(100%);
+  --secondary-filter: invert(78%) sepia(70%) saturate(911%) hue-rotate(144deg) brightness(86%) contrast(92%);
+  --dark-filter: invert(0%) sepia(44%) saturate(2591%) hue-rotate(102deg) brightness(99%) contrast(107%);
+  --gray-filter: invert(54%) sepia(2%) saturate(193%) hue-rotate(30deg) brightness(93%) contrast(94%);
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar .nav-image img {
+  width: 30px;
+  height: 30px;
+  filter: var(--primary-filter);
+  display: none;
+}
+
+.navbar .product-image img {
+  filter: var(--dark-filter);
+}
+
+.navbar .hide {
+  transform: translateX(30px);
+  transition: all 0.3s linear;
+  opacity: 1;
+  visibility: visible;
+}
